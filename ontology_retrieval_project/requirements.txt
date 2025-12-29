@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+rdflib
+SPARQLWrapper
+sentence-transformers
+qdrant-client
+numpy
+pandas
+tqdm
+python-multipart
+requests

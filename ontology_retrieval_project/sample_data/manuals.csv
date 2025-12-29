@@ -1,0 +1,4 @@
+id,title,text
+1,Hydraulic Pump Maintenance,"To inspect the hydraulic pump, first isolate power. Remove the cover and inspect seals. Common failure modes: seal_wear, bearing_fault. Procedure: replace_seal, lubricate_bearing."
+2,Valve Replacement Procedure,"Shut off upstream pressure. Remove bonnet. Replace valve seat if corroded. Failure modes include seat_erosion. Procedure: replace_seat, torque_bonnet."
+3,Compressor Troubleshooting,"Check oil level. Inspect belts for wear. Failure modes: belt_break, oil_leak. Procedure: replace_belt, refill_oil."

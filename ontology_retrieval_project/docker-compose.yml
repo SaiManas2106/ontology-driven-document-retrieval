@@ -1,0 +1,20 @@
+version: '3.8'
+services:
+  fuseki:
+    image: stain/jena-fuseki
+    container_name: fuseki
+    ports:
+      - "3030:3030"
+    volumes:
+      - ./fuseki:/fuseki
+    environment:
+      - FUSEKI_HEAP=512M
+  qdrant:
+    image: qdrant/qdrant
+    container_name: qdrant
+    ports:
+      - "6333:6333"
+    volumes:
+      - qdrant_storage:/qdrant/storage
+volumes:
+  qdrant_storage:
